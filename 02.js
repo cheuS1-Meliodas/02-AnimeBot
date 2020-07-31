@@ -24,4 +24,4 @@ client.registry
 client.on('ready', () => { 
  console.log(`logged in as ${client.user.tag}`)
 })
-client.login('Your Token Here!')
+client.login('Your Token Here')

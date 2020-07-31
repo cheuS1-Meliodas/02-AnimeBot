@@ -1,6 +1,6 @@
 {
   "name": "02",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Anime Bot 02",
   "main": "02.js",
   "dependencies": {
