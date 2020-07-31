@@ -1,25 +1,25 @@
 const { Command } = require('discord.js-commando')
-module.exports = class AnimeCommand extends Command {
+module.exports = class NekoCommand extends Command {
 	constructor(client) {
 		super(client, {
-			name: 'anime',
+			name: 'neko',
 			group: 'anime category',
-			memberName: 'anime',
-			description: 'Картинки обычных аниме',
+			memberName: 'neko',
+			description: 'Картинки Кошкодевочек',
 		});
 	}
 
 	run(message) {
 		if(!message.guild) 
 		 return message.reply('Команда может быть выполнена только на сервере!')
-		 const a = Math.floor(Math.random() * (29 - 1)) + 1
+		 const a = Math.floor(Math.random() * (30 - 1)) + 1
 		 message.channel.send(undefined, {
 			embed: {
 			  image: {
 				url: `attachment://${a}.jpg`
 			  },
 			  files: [
-				`./pics/danime/${a}.jpg`, 
+				`./pics/neko/${a}.jpg`, 
 			  ]
 			}
 		  });
