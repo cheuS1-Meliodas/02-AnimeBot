@@ -1,0 +1,30 @@
+{
+  "name": "02",
+  "version": "0.0.1",
+  "description": "Anime Bot 02",
+  "main": "02.js",
+  "dependencies": {
+    "discord.js": "^12.2.0",
+    "discord.js-command": "npm:@assasans/discord.js-commando@^0.11.2",
+    "discord.js-commando": "git+https://github.com/discordjs/Commando.git"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Anime",
+    "Bot",
+    "02"
+  ],
+  "author": "Meliodas",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cheuS1-Meliodas/02-AnimeBot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cheuS1-Meliodas/02-AnimeBot/issues"
+  },
+  "homepage": "https://github.com/cheuS1-Meliodas/02-AnimeBot#readme"
+}
